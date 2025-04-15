@@ -1,0 +1,53 @@
+
+body
+{
+  background-color: blue;
+  color: white;
+  text-align: center;
+  font-family: arial;
+}
+
+#content
+{
+  background-color: yellow;
+  color: blue;
+  margin:auto;
+  width: 80%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+fieldset
+{
+  border-radius: 10px;
+}
+
+
+
+#frame
+{
+ width: 90%;
+ margin: auto;
+ background-color: white;
+ color: black;
+}
+
+#ctx
+{
+ color: black;
+}
+
+.flex-container
+{
+  width: 90%;
+  margin:auto;
+  display: flex;
+  flex-flow: row wrap;
+  /*align-items: center;*/
+  justify-content: center;
+}
+
+.single
+{
+  display: inline-block;
+}
